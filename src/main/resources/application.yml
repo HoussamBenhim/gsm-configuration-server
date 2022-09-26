@@ -1,0 +1,17 @@
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/HoussamBenhim/configrepo.git
+          search-paths: '{application}'
+          passphrase: houssam
+          default-label: main
+        encrypt:
+          enabled: false
+  application:
+    name: config_service
+server:
+  port: 8888
+
