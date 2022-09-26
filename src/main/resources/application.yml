@@ -4,7 +4,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/HoussamBenhim/configrepo.git
+          uri: https://github.com/HoussamBenhim/gsm-configuration-files.git
           search-paths: '{application}'
           passphrase: houssam
           default-label: main
